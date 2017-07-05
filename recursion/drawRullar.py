@@ -17,4 +17,6 @@ def draw_ruller(num_inch,major_length):
 		draw_line(major_length,str(j))
 
 if __name__ == '__main__':
-	draw_ruller(2,5)
+	num_inch = int(input("Enter number of inch: "))
+	major_length = int(input("Enter major length: "))
+	draw_ruller(num_inch,major_length)
