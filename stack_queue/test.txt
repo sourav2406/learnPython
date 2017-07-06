@@ -1,0 +1,3 @@
+stack in that order, they will be popped from the stack in the order 3, 2, and then 1.
+reverse a data sequence. For example, if the values 1, 2, and 3 are pushed onto a
+As a consequence of the LIFO protocol, a stack can be used as a general tool to
