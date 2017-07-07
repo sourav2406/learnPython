@@ -27,7 +27,7 @@ class LinkedStack:
 		return self._head._element
 
 	def pop(self):
-		if sel.is_empty():
+		if self.is_empty():
 			raise Empty('Stack is empty')
 		answer = self._head._element
 		self._head = self._head._next
